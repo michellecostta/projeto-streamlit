@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "custos"
+version = "0.1.0"
+description = ""
+authors = ["Michelle"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.42.0"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
